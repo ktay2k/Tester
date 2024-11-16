@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySpace Replica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>MySpace Profile</h1>
+    </header>
+    <div class="main-content">
+      <div class="left-sidebar">
+        <div class="profile-pic">
+          <img src="profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="bio">
+          <h2>About Me</h2>
+          <p>Hello! Welcome to my MySpace page.</p>
+        </div>
+        <div class="friends-list">
+          <h2>Top Friends</h2>
+          <ul>
+            <li>Friend 1</li>
+            <li>Friend 2</li>
+            <li>Friend 3</li>
+            <li>Friend 4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="music-player">
+          <h2>My Music</h2>
+          <audio controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="comments">
+          <h2>Comments</h2>
+          <textarea placeholder="Leave a comment..."></textarea>
+          <button>Post</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2024 MySpace Replica</p>
+    </footer>
+  </div>
+</body>
+</html>
